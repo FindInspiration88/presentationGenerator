@@ -6,6 +6,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.Office.Interop.PowerPoint" Version="15.0.4420.1017" />
+    <PackageReference Include="MicrosoftOfficeCore" Version="15.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Generator.Database\Generator.Database.csproj" />
   </ItemGroup>
 
